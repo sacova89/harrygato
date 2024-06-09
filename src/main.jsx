@@ -3,6 +3,7 @@ import App from './App.jsx'
 import './index.css'
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import {ErrorPage} from "./components/errorPage.jsx";
+import {Blog} from "./components/blog.jsx";
 
 const router = createBrowserRouter([
     {
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
     {
         path: "/footer",
         element: <App/>,
+        errorElement: <ErrorPage/>
+    },
+    {
+        path: "/blog",
+        element: <Blog/>,
         errorElement: <ErrorPage/>
     },
 ])
