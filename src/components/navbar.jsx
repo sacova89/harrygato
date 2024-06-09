@@ -3,10 +3,9 @@ export const Navbar = () => {
     const Routes = [
         {name: "About me", link: "#about"},
         {name: "Portfolio", link: "#portfolio"},
-        {name: "Buy me coffee", link: "#footer"},
     ]
     return(
-        <div className={"bg-gray-100"}>
+        <div className={"bg-gray-100 sticky top-0"}>
             <div className={"max-w-6xl mx-auto"}>
                 <div className={"flex justify-between"}>
                     <div className={"flex space-x-4"}>
@@ -19,7 +18,11 @@ export const Navbar = () => {
                             ))}
                         </div>
                     </div>
-                    <div className={"text-black"}>Second navbar</div>
+                    <div className={"flex items-center space-x-3"}>
+                        <span className={"py-4 px-3 text-gray-100"}>
+                            <a className={"bg-purple-500 rounded-2xl py-2 px-4"} href={"#footer"}>Buy me a coffee!</a>
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>

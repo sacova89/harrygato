@@ -1,7 +1,7 @@
 
 export const ErrorPage = () => {
     return (
-        <div>
+        <div className={"h-screen"}>
             REICHO 404, Ya sabes.
         </div>
     )
