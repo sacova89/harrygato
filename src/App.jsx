@@ -8,9 +8,9 @@ function App() {
   return (
     <div>
         <Navbar/>
-        <About/>
-        <Portfolio/>
-        <Footer/>
+        <About id={"about"}/>
+        <Portfolio id={"portfolio"}/>
+        <Footer id={"footer"}/>
     </div>
   )
 }
