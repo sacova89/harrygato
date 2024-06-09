@@ -5,7 +5,7 @@ export const Navbar = () => {
         {name: "Portfolio", link: "#portfolio"},
     ]
     return(
-        <div className={"bg-gray-100 sticky top-0"}>
+        <div className={"hidden lg:block bg-gray-100 sticky top-0"}>
             <div className={"max-w-6xl mx-auto"}>
                 <div className={"flex justify-between"}>
                     <div className={"flex space-x-4"}>
