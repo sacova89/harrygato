@@ -1,7 +1,22 @@
 {
-    "projects": [
-      { "id": 1, "name": "Proyecto 1", "description": "Descripción del Proyecto 1" },
-      { "id": 2, "name": "Proyecto 2", "description": "Descripción del Proyecto 2" },
-      { "id": 2, "name": "Proyecto 3", "description": "Descripción del Proyecto 3" }
-    ]
-  }
+  "projects": [
+    {
+      "id": 1,
+      "name": "Proyecto 1",
+      "description": "Descripción del proyecto 1.",
+      "image": "src/assets/portfolio_images/chair.png"
+    },
+    {
+      "id": 2,
+      "name": "Proyecto 2",
+      "description": "Descripción del proyecto 2.",
+      "image": "src/assets/portfolio_images/chair 2.png"
+    },
+    {
+      "id": 3,
+      "name": "Proyecto 3",
+      "description": "Descripción del proyecto 3.",
+      "image": "src/assets/portfolio_images/clock 2 .png"
+    }
+  ]
+}

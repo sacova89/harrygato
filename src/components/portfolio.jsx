@@ -14,6 +14,8 @@ const Portfolio = ({ onAddToFavorites }) => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4 p-4 w-full max-w-6xl">
         {projects.map(project => (
           <div key={project.id} className="border p-4 bg-white rounded-lg shadow-md">
+            {/* Imagen del proyecto */}
+            <img src={project.image} alt={project.name} className="w-full h-40 object-cover rounded-md mb-4" />
             <h3 className="text-xl font-bold">{project.name}</h3>
             <p className="mt-2 text-gray-700">{project.description}</p>
             <button
