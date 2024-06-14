@@ -1,5 +1,5 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+// tailwind.config.js
+module.exports = {
   mode: "jit",
   darkMode: true,
   content: [
@@ -7,8 +7,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'pattern-about': "url('../src/assets/portfolio_images/pattern.svg')"
+      }
+    },
   },
   plugins: [],
-}
-
+};

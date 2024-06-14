@@ -2,20 +2,20 @@
   "projects": [
     {
       "id": 1,
-      "name": "Proyecto 1",
-      "description": "Descripción del proyecto 1.",
+      "name": "Silla oklahoma",
+      "description": "Silla oklahoma creada a partir de materiales reutilizados.",
       "image": "src/assets/portfolio_images/chair.png"
     },
     {
       "id": 2,
-      "name": "Proyecto 2",
-      "description": "Descripción del proyecto 2.",
+      "name": "Osojo v2.0",
+      "description": "Versión 2.0 de la tan aclamada silla Osojo a partir de telas recuperadas.",
       "image": "src/assets/portfolio_images/chair 2.png"
     },
     {
       "id": 3,
-      "name": "Proyecto 3",
-      "description": "Descripción del proyecto 3.",
+      "name": "Reloj Day & Night",
+      "description": "El Reloj Day & Night es un concepto creado en conjunto con la marca Rolex.",
       "image": "src/assets/portfolio_images/clock 2 .png"
     }
   ]

@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "Título del Artículo 1",
+      "content": "Contenido del artículo 1...",
+      "author": "Autor 1",
+      "date": "2024-06-13"
+    },
+    {
+      "id": 2,
+      "title": "Título del Artículo 2",
+      "content": "Contenido del artículo 2...",
+      "author": "Autor 2",
+      "date": "2024-06-14"
+    },
+    {
+      "id": 3,
+      "title": "Título del Artículo 3",
+      "content": "Contenido del artículo 3...",
+      "author": "Autor 3",
+      "date": "2024-06-15"
+    }
+  ]
+  

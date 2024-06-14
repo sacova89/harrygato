@@ -9,11 +9,11 @@ const Portfolio = ({ onAddToFavorites }) => {
   }, []);
 
   return (
-    <div id="portfolio" className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-violet-500 to-fuchsia-500">
+    <div id="portfolio" className="flex flex-col items-center justify-center min-h-screen bg-gray-800">
       <h2 className="text-4xl font-bold text-center text-white mt-6">PORTAFOLIO</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4 p-4 w-full max-w-6xl">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4 p-4 w-full max-w-6xl ">
         {projects.map(project => (
-          <div key={project.id} className="border p-4 bg-white rounded-lg shadow-md">
+          <div key={project.id} className="border p-4 bg-white rounded-lg shadow-md group/item hover:bg-slate-100 ...">
             {/* Imagen del proyecto */}
             <img src={project.image} alt={project.name} className="w-full h-40 object-cover rounded-md mb-4" />
             <h3 className="text-xl font-bold">{project.name}</h3>

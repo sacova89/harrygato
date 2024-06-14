@@ -39,7 +39,9 @@ export const Navbar = () => {
   return (
     <nav className="bg-gray-800 text-white p-4 sticky top-0 z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
-        <div className="text-xl font-bold">HarryGato Studio</div>
+        <span className="text-xl bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-yellow-300">
+          HarryGato Studio
+        </span>
         <div className="lg:hidden">
           <button onClick={toggleMenu} className="focus:outline-none relative z-50">
             {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
@@ -51,8 +53,7 @@ export const Navbar = () => {
               <a
                 href={route.link}
                 className="block px-3 py-2 rounded hover:bg-sky-700 transition duration-300"
-                onClick={() => handleLinkClick(route.link)}
-              >
+                onClick={() => handleLinkClick(route.link)}>
                 {route.name}
               </a>
             </li>
@@ -60,9 +61,8 @@ export const Navbar = () => {
           <li className="py-2 lg:py-0">
             <a
               href="#footer"
-              className="block px-4 py-2 bg-purple-500 rounded-2xl hover:bg-purple-700 transition duration-300"
-              onClick={() => handleLinkClick('/#footer')}
-            >
+              className="block px-4 py-2 text-black font-bold bg-yellow-500 rounded-2xl hover:bg-yellow-600 transition duration-300"
+              onClick={() => handleLinkClick('/#footer')}>
               Buy me a coffee!
             </a>
           </li>
