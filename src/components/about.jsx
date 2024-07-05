@@ -16,7 +16,7 @@ export const About = () => {
           </div>
         </h1>
         <p className="mt-4 text-lg md:text-xl lg:text-2xl text-center text-white">
-          Soy un diseñador industrial y este es mi trabajo.
+          Soy un Diseñador y este es mi trabajo.
         </p>
       </div>
     </div>

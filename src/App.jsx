@@ -10,7 +10,7 @@ function App() {
 
   const handleAddToFavorites = (project) => {
     setFavoriteProjects((prevFavorites) => {
-      if (!prevFavorites.some(fav => fav.id === project.id)) {
+      if (!prevFavorites.some(fav => fav._id === project._id)) {
         return [...prevFavorites, project];
       }
       return prevFavorites;
@@ -18,7 +18,7 @@ function App() {
   };
 
   const handleDeleteFavorite = (projectId) => {
-    const updatedFavorites = favoriteProjects.filter(project => project.id !== projectId);
+    const updatedFavorites = favoriteProjects.filter(project => project._id !== projectId);
     setFavoriteProjects(updatedFavorites);
   };
 

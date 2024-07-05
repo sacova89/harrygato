@@ -1,22 +1,22 @@
 [
     {
       "id": 1,
-      "title": "Título del Artículo 1",
-      "content": "Contenido del artículo 1...",
-      "author": "Autor 1",
+      "title": "Como Diseñar apps en Linux",
+      "content": "Desde hace mucho tiempo se ha sabido...",
+      "author": "Santiago A.",
       "date": "2024-06-13"
     },
     {
       "id": 2,
-      "title": "Título del Artículo 2",
-      "content": "Contenido del artículo 2...",
-      "author": "Autor 2",
+      "title": "No todo es lo que parece",
+      "content": "Cuando utilizamos una nueva plataforma...",
+      "author": "Santiago A.",
       "date": "2024-06-14"
     },
     {
       "id": 3,
-      "title": "Título del Artículo 3",
-      "content": "Contenido del artículo 3...",
+      "title": "Paso a Paso",
+      "content": "En el Mundo Digital siempre es importante ...",
       "author": "Autor 3",
       "date": "2024-06-15"
     }

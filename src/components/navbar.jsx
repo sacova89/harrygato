@@ -23,15 +23,15 @@ export const Navbar = () => {
   ];
 
   const handleLinkClick = (link) => {
-    setIsOpen(false); // Cerrar el menú cuando se hace clic en un enlace
+    setIsOpen(false); 
     if (link.startsWith('#')) {
-      // Manejar enlaces internos con scroll suave
+   
       const element = document.querySelector(link);
       if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
       }
     } else {
-      // Para enlaces externos, redirigir a la URL completa
+    
       window.location.href = link;
     }
   };
@@ -63,7 +63,7 @@ export const Navbar = () => {
               href="#footer"
               className="block px-4 py-2 text-black font-bold bg-yellow-500 rounded-2xl hover:bg-yellow-600 transition duration-300"
               onClick={() => handleLinkClick('/#footer')}>
-              Buy me a coffee!
+              Suscribete
             </a>
           </li>
         </ul>

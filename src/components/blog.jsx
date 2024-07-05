@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar } from "./navbar.jsx";
-import articles from '../articles.json'; // Asegúrate de que la ruta es correcta
+import articles from '../articles.json'; 
 
 export const Blog = () => {
     return (
